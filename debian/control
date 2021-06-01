@@ -1,0 +1,22 @@
+Source: luma.core
+Section: python
+Priority: optional
+Maintainer: attwad <tmusoft@gmail.com>
+Homepage: https://github.com/rm-hull/luma.core
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-sequence-python3,
+ dh-python,
+ python3,
+ python3-setuptools,
+Standards-Version: 4.5.1
+
+Package: python3-luma-core
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Core Python drawing canvas library for small displays
+ A component library providing a Pillow-compatible drawing canvas, and other
+ functionality to support drawing primitives and text-rendering capabilities for
+ small displays on the Raspberry Pi and other single board computers.
