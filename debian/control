@@ -1,7 +1,7 @@
 Source: luma.core
 Section: python
 Priority: optional
-Maintainer: attwad <tmusoft@gmail.com>
+Maintainer: Richard Hull <richard@destructuring-bind.org>
 Homepage: https://github.com/rm-hull/luma.core
 Build-Depends:
  debhelper-compat (= 12),
